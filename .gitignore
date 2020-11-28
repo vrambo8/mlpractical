@@ -33,6 +33,10 @@ var/
 *.manifest
 *.spec
 
+# gcloud
+google-cloud-sdk-269.0.0-linux-x86_64.tar.gz
+google-cloud-sdk/
+
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
