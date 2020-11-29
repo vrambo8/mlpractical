@@ -40,7 +40,7 @@ pip-delete-this-directory.txt
 #gcloud
 google-cloud-sdk-269.0.0-linux-x86_64.tar.gz
 google-cloud-sdk/
-
+data/
 # Unit test / coverage reports
 htmlcov/
 .tox/
