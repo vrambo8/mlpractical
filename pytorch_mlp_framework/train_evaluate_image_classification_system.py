@@ -50,6 +50,9 @@ elif args.block_type == 'empty_block':
 elif args.block_type == 'bn_block':
     processing_block_type = BatchNormProcessingBlock
     dim_reduction_block_type = BatchNormDimensionalityReductionBlock
+elif args.block_type == 'bn_each_layer_block':
+    processing_block_type = BatchNormEachLayerProcessingBlock
+    dim_reduction_block_type = BatchNormEachLayerDimensionalityReductionBlock
 else:
     raise ModuleNotFoundError
 
